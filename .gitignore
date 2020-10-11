@@ -1,0 +1,8 @@
+.idea
+.pytest_cache
+.tox
+
+bin/
+dist/
+
+pm4pyspark.egg-info/

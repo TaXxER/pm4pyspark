@@ -1,0 +1,11 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+    -   id: flake8
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: https://github.com/pre-commit/mirrors-isort
+    rev: 'b08e15c922b6700c850d69d2df7c3b6b6dc3f116'
+    hooks:
+    -   id: isort
